@@ -386,7 +386,7 @@ public class SensibleToolboxPlugin extends JavaPlugin implements ConfigurationLi
                 public void run() {
                     LocationManager.getManager().tick();
                 }
-            }, 1L, 1L);
+            }, 1L, 5L); // Apocalypse edited
 
             Bukkit.getScheduler().runTaskTimer(this, new Runnable() {
                 @Override
